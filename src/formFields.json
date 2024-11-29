@@ -1,0 +1,138 @@
+[
+  {
+    "step": 1,
+    "fields": [
+      {
+        "type": "text",
+        "label": "What is your first name",
+        "identifier": "firstName",
+        "placeholder": "Enter First Name",
+        "validation": {
+          "type": "string",
+          "required": true,
+          "message": "First Name is required"
+        }
+      },
+      {
+        "type": "text",
+        "label": "... and Last Name ",
+        "identifier": "lastName",
+        "placeholder": "Enter Last Name",
+        "validation": {
+          "type": "string",
+          "required": true,
+          "message": "Last Name is required"
+        }
+      },
+      {
+        "type": "tel",
+        "label": "What is Your Phone Number",
+        "identifier": "phoneNumber",
+        "placeholder": "Enter Phone Number",
+        "validation": {
+          "type": "string",
+          "required": true,
+          "message": "Phone Number is required"
+        }
+      },
+      {
+        "type": "text",
+        "label": "Country of Residence",
+        "identifier": "residenceCountry",
+        "placeholder": "Enter Country of Residence",
+        "validation": {
+          "type": "string",
+          "required": true,
+          "message": "Country of Residence is required"
+        }
+      },
+      {
+        "type": "text",
+        "label": "City",
+        "identifier": "city",
+        "placeholder": "Enter City",
+        "validation": {
+          "type": "string",
+          "required": true,
+          "message": "City is required"
+        }
+      },
+      {
+        "type": "text",
+        "label": "Nationality",
+        "identifier": "nationality",
+        "placeholder": "Enter Nationality",
+        "validation": {
+          "type": "string",
+          "required": true,
+          "message": "Nationality is required"
+        }
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "fields": [
+      {
+        "type": "url",
+        "label": "Facebook",
+        "identifier": "facebook",
+        "placeholder": "Enter Facebook Profile URL",
+        "validation": {
+          "type": "string",
+          "required": false,
+          "message": "Facebook Profile URL is required"
+        }
+      },
+      {
+        "type": "url",
+        "label": "Twitter",
+        "identifier": "twitter",
+        "placeholder": "Enter Twitter Profile URL",
+        "validation": {
+          "type": "string",
+          "required": false,
+          "message": "Twitter Profile URL is required"
+        }
+      },
+      {
+        "type": "url",
+        "label": "Instagram",
+        "identifier": "instagram",
+        "placeholder": "Enter Instagram Profile URL",
+        "validation": {
+          "type": "string",
+          "required": false,
+          "message": "Instagram Profile URL is required"
+        }
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "fields": [
+      {
+        "type": "number",
+        "label": "How many years of experience do you have?",
+        "identifier": "experienceYears",
+        "placeholder": "Enter number of years",
+        "validation": {
+          "type": "number",
+          "required": true,
+          "message": "Number of years is required"
+        }
+      },
+      {
+        "type": "text",
+        "label": "Please describe your other experiences",
+        "identifier": "otherExperiences",
+        "placeholder": "Enter your experiences",
+        "validation": {
+          "type": "string",
+          "required": false,
+          "message": "This field is optional"
+        }
+      }
+    ]
+  }
+]
