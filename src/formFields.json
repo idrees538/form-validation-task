@@ -97,13 +97,46 @@
       },
       {
         "type": "url",
-        "label": "Instagram",
-        "identifier": "instagram",
-        "placeholder": "Enter Instagram Profile URL",
+        "label": "LinkedIn",
+        "identifier": "linkedin",
+        "placeholder": "Enter LinkedIn Profile URL",
         "validation": {
           "type": "string",
           "required": false,
-          "message": "Instagram Profile URL is required"
+          "message": "LinkedIn Profile URL is required"
+        }
+      },
+      {
+        "type": "url",
+        "label": "GitHub",
+        "identifier": "github",
+        "placeholder": "Enter GitHub Profile URL",
+        "validation": {
+          "type": "string",
+          "required": false,
+          "message": "GitHub Profile URL is required"
+        }
+      },
+      {
+        "type": "url",
+        "label": "Personal Website",
+        "identifier": "personalWebsite",
+        "placeholder": "Enter Personal Website URL",
+        "validation": {
+          "type": "string",
+          "required": false,
+          "message": "Personal Website URL is required"
+        }
+      },
+      {
+        "type": "text",
+        "label": "Any Reference",
+        "identifier": "reference",
+        "placeholder": "Enter any Reference ",
+        "validation": {
+          "type": "string",
+          "required": false,
+          "message": "This field is optional"
         }
       }
     ]
@@ -113,13 +146,25 @@
     "fields": [
       {
         "type": "number",
-        "label": "How many years of experience do you have?",
+        "label": "How many years of experience do you have",
         "identifier": "experienceYears",
         "placeholder": "Enter number of years",
         "validation": {
           "type": "number",
           "required": true,
           "message": "Number of years is required"
+        }
+      },
+      {
+        "type": "select",
+        "label": "What is your expertise",
+        "identifier": "expertise",
+        "options": ["Frontend", "Backend", "Full Stack"],
+        "placeholder": "Select your expertise",
+        "validation": {
+          "type": "string",
+          "required": false,
+          "message": "Expertise is required"
         }
       },
       {
