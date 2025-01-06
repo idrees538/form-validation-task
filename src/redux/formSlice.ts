@@ -7,6 +7,8 @@ interface FormData {
 interface FormState {
   [step: number]: FormData;
 }
+ 
+
 
 const initialState: FormState = {};
 
